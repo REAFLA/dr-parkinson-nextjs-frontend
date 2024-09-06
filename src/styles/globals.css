@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply mx-auto my-0 p-[20px] text-primary font-sans w-full min-w-[320px] max-w-[1024px];
+  }
+
+  input,
+  textarea {
+    /* @apply !border-blue-gray-200 focus:!border-gray-900; */
+    /* @apply focus:!border-t-[2px] focus:!border-gray-900; */
+    @apply min-h-[44px] !border !border-blue-gray-200 placeholder:text-blue-gray-200 placeholder:!opacity-100 focus:!border-blue-gray-900 z-[0];
+  }
+
+  input[type="checkbox"] {
+    @apply !min-h-[20px];
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+}

@@ -1,0 +1,19 @@
+{
+  "name": "dr-parkinson",
+  "script": "node_modules/next/dist/bin/next",
+  "args": "start",
+  "cwd": "./",
+  "instances": "max",
+  "exec_mode": "cluster",
+  "watch": false,
+  "max_memory_restart": "2G",
+  "ignore-watch": [],
+  "log_date_format": "YYYY-MM-DD HH:mm Z",
+  "output": "/home/ubuntu/.pm2/logs/dr-parkinson-out.log",
+  "error_file": "/home/ubuntu/.pm2/logs/dr-parkinson-error.log",
+  "out_file": "/home/ubuntu/.pm2/logs/dr-parkinson-combined.log",
+  "merge_logs": true,
+  "env": {
+    "PORT": 3000
+  }
+}
