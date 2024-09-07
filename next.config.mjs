@@ -23,6 +23,22 @@ const nextConfig = {
       },
       {
         protocol: "https",
+        hostname: "youtube.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.youtube.com",
+      },
+      {
+        protocol: "https",
+        hostname: "material-tailwind.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.material-tailwind.com",
+      },
+      {
+        protocol: "https",
         hostname: "images.unsplash.com",
       },
       {

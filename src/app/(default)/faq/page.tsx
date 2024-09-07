@@ -16,7 +16,7 @@ export default function FaqPage(): JSX.Element {
   ]
 
   return (
-    <section className="flex flex-col gap-[50px] mx-auto pt-[50px] pb-[100px] px-5">
+    <section className="flex flex-col gap-[50px] mx-auto pt-[50px] pb-[100px] px-[20px]">
       <div className="flex flex-col gap-[30px]">
         <h1 className="text-3xl font-bold text-left">PRIVACY POLICY</h1>
         <p className="text-gray-500">

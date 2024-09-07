@@ -1,6 +1,7 @@
 "use server"
 
 import FooterComponent from "@/layouts/footer"
+import HeaderComponent from "@/layouts/header"
 
 /**
  * @function Template
@@ -17,7 +18,7 @@ export default async function Template({
 }): Promise<JSX.Element> {
   return (
     <>
-      {/* <HeaderComponent /> */}
+      <HeaderComponent />
       <main className="flex-grow w-full h-full">{children}</main>
       <FooterComponent />
     </>
